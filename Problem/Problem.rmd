@@ -1,6 +1,6 @@
 ---
 title: "T-Test Problem"
-author: "Your Name"
+author: "Evangela McGarity"
 date: "Spring, 2020"
 output: html_document
 ---
@@ -15,3 +15,6 @@ Ourdata <- read.csv(file="GSScsv.csv")
 
 ## Is there a difference in  average years of education (EDUC) between the those who did or did not vote in 2012 (VOTE12)?
 
+$H_O$ : There is no diff in the average years of education between those who voted and those who did not vote
+
+$H_O$ : there is a difference between the years between the who voted and didnot vote
