@@ -34,3 +34,13 @@ plot(EDUC~VOTE12,data=Ourdata)
 favstats(EDUC~VOTE12,data=Ourdata)
 ```
 
+
+## inference
+
+```{r}
+t.test(EDUC~VOTE12,data=Ourdata)
+```
+
+
+## conclusions
+The P-value from the t-test,this is less than 0.05,so we reject the no hypothesis and conclude we have evidence there is a difference in average years of education for those who voted in 2012 and those who did not vote in 2012.
