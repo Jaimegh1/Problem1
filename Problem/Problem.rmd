@@ -17,4 +17,13 @@ Ourdata <- read.csv(file="GSScsv.csv")
 
 $H_O$ : There is no diff in the average years of education between those who voted and those who did not vote
 
-$H_O$ : there is a difference between the years between the who voted and didnot vote
+$H_O$ : there is a difference between the years between the who voted and did not vote
+
+** graphical summary  
+
+```{r}
+plot(EDUC~VOTE12,data=Ourdata)
+```
+  
+  
+  It appears that the average number of years iof education is about the same for both groups
